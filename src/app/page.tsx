@@ -21,7 +21,7 @@ export default function Home() {
     return (
         <div className="flex items-center justify-center">
             <div className="w-[700px] mt-[40px] flex flex-col items-center justify-center">
-                <p className="text-center w-[100%] font-semibold text-[28px] text-[#1a1a1]">ReactJS Quiz</p>
+                <p className="text-center w-[100%] font-semibold text-[28px] text-[#1a1a1]">React.JS Quiz</p>
                 {currentQuestions < question.length && (
                     <Questions
                         questions={question[currentQuestions]}
