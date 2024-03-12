@@ -24,7 +24,7 @@ const Questions: React.FC<PropTypes> = (props) => {
 
     return (
         <div className="w-[95%] md:w-[100%] mt-[10px] mx-[20px] md:mt-[20px]  p-[10px] md:p-[20px] border rounded-md flex flex-col">
-            <h1 className="text-[18px] text-[#1A1A1A] w-[100%] text-center font-semibold">
+            <h1 className="text-[16px] text-[#1A1A1A] w-[100%] text-center font-semibold">
                 Q{props.currentQustion + 1}&#41; {props.questions.questions}
             </h1>
             <div className="w-[100%] md:w-[80%] grid grid-cols-2  mx-auto gap-[20px] mt-[30px]">
