@@ -1,8 +1,8 @@
 import React from "react";
 
 interface PropTypes {
-    userAnswer: any
-    questions: any
+    userAnswer: any,
+    questions: any,
     resetQuiz: () => void
 }
 
